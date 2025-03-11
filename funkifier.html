@@ -11,6 +11,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    <link rel="icon" type="image/x-icon" href="/images/funk-logo.png">
+    <style>
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        button-container{
+            display:flex;
+        }
+        .column {
+            float: left;
+            width: 50%;
+            padding: 5px;
+        }
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+    </style>
 </head>
 <body class="is-preload">
 
@@ -47,14 +68,14 @@
         <section id="banner" class="style2">
             <div class="inner">
                 <span class="image">
-                    <img src="images/pic07.jpg" alt="" />
+                    <img src="images/funk-colour.png" alt="" />
                 </span>
                 <header class="major">
                     <h1>Funkifier</h1>
                 </header>
                 <div class="content">
                     <p>
-                        Auto-Wah<br />
+                        Auto-Wah.<br />
                         blah-blah.
                     </p>
                 </div>
@@ -68,77 +89,46 @@
             <section id="one">
                 <div class="inner">
                     <header class="major">
-                        <h2>Sed amet aliquam</h2>
+                        <h2>Funk Time</h2>
                     </header>
-                    <p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+                    <p>
+                        <img src="images/funk-display.png" alt="Funkifier Plugin" style="width:75%;" /> <br />
+                        An automatic wah pedal that gives you full control; set the frequency of your 'heel'
+                        and 'toe' positions, as well as the attack and decay speeds.<br />
+                        Our custom-built note detection means that the effect will perfectly follow whatever you are playing. <br />
+                        The wah behaviour can be modified via the Q control, and you can get the funk balance just right with the mix control.
+                    </p>
+                    <ul>
+                        <li style="display:inline-block;">
+                            <a href="/images/windows-download-button.png" style="text-decoration:none;"><a>Download for Windows</a></a>
+                        </li>
+                        <li style="display:inline-block;">
+                            <a href="staff.html" style="text-decoration:none; color:#00FFFF;"><h1>Mac version coming soon!</h1></a>
+                        </li>
+                    </ul>
+                    <div class="button-container">
+                        <a href="/images/windows-download-button.png" download>
+                            <img src="images/windows-download-button.png" alt="Download for windows" style="width:25%" />
+                        </a>
+                        <a href="/images/windows-download-button.png" download>
+                            <img src="images/mac-download-button.png" alt="Mac version coming soon" style="width:25%" />
+                        </a>
+                    </div>
                 </div>
             </section>
         </div>
-
-        <!-- Contact -->
-        <section id="contact">
-            <div class="inner">
-                <section>
-                    <form method="post" action="#">
-                        <div class="fields">
-                            <div class="field half">
-                                <label for="name">Name</label>
-                                <input type="text" name="name" id="name" />
-                            </div>
-                            <div class="field half">
-                                <label for="email">Email</label>
-                                <input type="text" name="email" id="email" />
-                            </div>
-                            <div class="field">
-                                <label for="message">Message</label>
-                                <textarea name="message" id="message" rows="6"></textarea>
-                            </div>
-                        </div>
-                        <ul class="actions">
-                            <li><input type="submit" value="Send Message" class="primary" /></li>
-                            <li><input type="reset" value="Clear" /></li>
-                        </ul>
-                    </form>
-                </section>
-                <section class="split">
-                    <section>
-                        <div class="contact-method">
-                            <span class="icon solid alt fa-envelope"></span>
-                            <h3>Email</h3>
-                            <a href="#">james@mutenaudio.co.uk</a>
-                        </div>
-                    </section>
-                    <!--<section>
-                        <div class="contact-method">
-                            <span class="icon solid alt fa-phone"></span>
-                            <h3>Phone</h3>
-                            <span>(000) 000-0000 x12387</span>
-                        </div>
-                    </section>
-                    <section>
-                        <div class="contact-method">
-                            <span class="icon solid alt fa-home"></span>
-                            <h3>Address</h3>
-                            <span>
-                                1234 Somewhere Road #5432<br />
-                                Nashville, TN 00000<br />
-                                United States of America
-                            </span>
-                        </div>
-                    </section>-->
-                </section>
-            </div>
-        </section>
 
         <!-- Footer -->
         <footer id="footer">
             <div class="inner">
                 <ul class="icons">
-                    <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-                    <li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+                    <!--<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>-->
+                    <!--<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>-->
                     <li><a href="https://www.instagram.com/mutenaudio/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="#" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
                     <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-                    <li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+                    <!--<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>-->
+                    <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span> &nbsp&nbsp <a href="#">james@mutenaudio.co.uk</a></a></li>
                 </ul>
                 <ul class="copyright">
                     <li>&copy; Untitled</li>
