@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <link rel="icon" type="image/x-icon" href="/images/funk-logo.png">
+    <link rel="icon" type="image/x-icon" href="/images/funk-bg-rc.png">
     <style>
         img {
             display: block;
@@ -26,9 +26,11 @@
     <div id="wrapper">
 
         <!-- Header -->
-        <!-- Note: The "styleN" class below should match that of the banner element. -->
-        <header id="header" class="alt style2">
-            <a href="index.html" class="logo"><strong>Muten Audio</strong> </a>
+        <header id="header" class="alt style1">
+            <a href="index.html" class="logo" style="display:inline-flex" ;><img class="fit" src="images/funk-bg-rc-txt.png" alt="Muten Audio Logo" style="max-height:auto; max-width:100%; margin-left:4px; margin-top:4px;" /></a>
+            <header class="major">
+                <h1>Waves</h1>
+            </header>
             <nav>
                 <a href="#menu">Menu</a>
             </nav>
@@ -40,22 +42,24 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="waves.html">Waves</a></li>
                 <li><a href="funkifier.html">Funkifier</a></li>
-                <li><a href="landing.html">Landing</a></li>
-                <li><a href="generic.html">Generic</a></li>
-                <li><a href="elements.html">Elements</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="help.html">Help</a></li>
             </ul>
+            <section class="inner">
+                <ul class="icons">
+                    <li><a href="https://www.instagram.com/mutenaudio/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://www.youtube.com/@MutenAudio" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
+                    <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                    <!--<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>-->
+                    <li><a href="mailto:james@mutenaudio.co.uk" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+            </section>
         </nav>
 
         <!-- Banner -->
         <!-- Note: The "styleN" class below should match that of the header element. -->
-        <section id="banner" class="style2">
+        <section id="banner" class="style1">
             <div class="inner">
-                <span class="image">
-                    <img src="images/waves-colour.png" alt="" />
-                </span>
-                <header class="major">
-                    <h1>Waves</h1>
-                </header>
                 <div class="content">
                     <p>
                         Customisable Tremolo<br />
@@ -69,16 +73,27 @@
 
             <!-- One -->
             <section id="one">
-                <div class="inner">
-                    <header class="major">
-                        <h2>Tremolo </h2>
-                    </header>
+                <div class="inner">                   
                     <p>
-                        <img src="images/waves-display.png" alt="Waves Plugin" style="width:75%;" /> <br />
-                        Change volumes using two sets of three distinct functions,
-                        and apply matched or individual timings and volume behaviours
-                        to the two channels.
+                        <img src="images/waves-display.png" alt="Waves Plugin" style="width:65%;" /> <br />
+                        The first audio effect from Muten Audio: a customisable tremolo. Created with flexilbility in mind,
+                        this is a plugin which gives you full control of the volume behaviour of each oscillation. <br/>
+
+                        Find your style and shape your sound according to your own taste. <br/>
+
+                        The display allows for instant feedback and clear visualisation of how the plugin will modify your input.
+
                     </p>
+                    <header class="major">
+                        <h2>Specification</h2>
+                    </header>
+                    <ul>
+                        <li>Control the depth of oscillations</li>
+                        <li>Set speed and skew the oscillation centre</li>
+                        <li>Choose from three oscillation shapes both before and after the centre</li>
+                        <li>Full stereo functionality, with the option to have completely independent tremolo effects on the 
+                        left and right channels</li>
+                    </ul>
                 </div>
             </section>
         </div>
@@ -87,13 +102,11 @@
         <footer id="footer">
             <div class="inner">
                 <ul class="icons">
-                    <!--<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>-->
-                    <!--<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>-->
                     <li><a href="https://www.instagram.com/mutenaudio/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="#" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
+                    <li><a href="https://www.youtube.com/@MutenAudio" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
                     <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
                     <!--<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>-->
-                    <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span> &nbsp&nbsp <a href="#">james@mutenaudio.co.uk</a></a></li>
+                    <li><a href="mailto:james@mutenaudio.co.uk" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
                 </ul>
                 <ul class="copyright">
                     <li>&copy; Untitled</li>

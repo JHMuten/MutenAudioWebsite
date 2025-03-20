@@ -112,6 +112,7 @@
 	// Scrolly.
 		$('.scrolly').scrolly({
 			offset: function() {
+				$(header).addClass('scrolled');
 				return $header.height() - 2;
 			}
 		});

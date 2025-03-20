@@ -11,15 +11,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
     <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <link rel="icon" type="image/x-icon" href="/images/funk-logo.png">
+    <link rel="icon" type="image/x-icon" href="/images/funk-bg-rc.png">
     <style>
         img {
             display: block;
             margin-left: auto;
             margin-right: auto;
-        }
-        button-container{
-            display:flex;
         }
         .column {
             float: left;
@@ -41,7 +38,10 @@
         <!-- Header -->
         <!-- Note: The "styleN" class below should match that of the banner element. -->
         <header id="header" class="alt style2">
-            <a href="index.html" class="logo"><strong>Muten Audio</strong> </a>
+            <a href="index.html" class="logo" style="display:inline-flex" ;><img class="fit" src="images/funk-bg-rc-txt.png" alt="Muten Audio Logo" style="max-height:auto; max-width:100%; margin-left:4px; margin-top:4px;" /></a>
+            <header class="major">
+                <h1>Funkifier</h1>
+            </header>
             <nav>
                 <a href="#menu">Menu</a>
             </nav>
@@ -53,30 +53,27 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="waves.html">Waves</a></li>
                 <li><a href="funkifier.html">Funkifier</a></li>
-                <li><a href="landing.html">Landing</a></li>
-                <li><a href="generic.html">Generic</a></li>
-                <li><a href="elements.html">Elements</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="help.html">Help</a></li>
             </ul>
-            <ul class="actions stacked">
-                <li><a href="#" class="button primary fit">Get Started</a></li>
-                <li><a href="#" class="button fit">Log In</a></li>
-            </ul>
+            <section class="inner">
+                <ul class="icons">
+                    <li><a href="https://www.instagram.com/mutenaudio/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+                    <li><a href="https://www.youtube.com/@MutenAudio" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
+                    <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+                    <!--<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>-->
+                    <li><a href="mailto:james@mutenaudio.co.uk" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
+                </ul>
+            </section>
         </nav>
 
         <!-- Banner -->
         <!-- Note: The "styleN" class below should match that of the header element. -->
         <section id="banner" class="style2">
             <div class="inner">
-                <span class="image">
-                    <img src="images/funk-colour.png" alt="" />
-                </span>
-                <header class="major">
-                    <h1>Funkifier</h1>
-                </header>
                 <div class="content">
                     <p>
-                        Auto-Wah.<br />
-                        blah-blah.
+                        Auto-Wah
                     </p>
                 </div>
             </div>
@@ -88,32 +85,32 @@
             <!-- One -->
             <section id="one">
                 <div class="inner">
-                    <header class="major">
-                        <h2>Funk Time</h2>
-                    </header>
                     <p>
-                        <img src="images/funk-display.png" alt="Funkifier Plugin" style="width:75%;" /> <br />
+                        <img src="images/funk-display.png" alt="Funkifier Plugin" style="width:60%;" /> <br />
                         An automatic wah pedal that gives you full control; set the frequency of your 'heel'
                         and 'toe' positions, as well as the attack and decay speeds.<br />
                         Our custom-built note detection means that the effect will perfectly follow whatever you are playing. <br />
                         The wah behaviour can be modified via the Q control, and you can get the funk balance just right with the mix control.
                     </p>
+
+                    <header class="major">
+                        <h2>Specification</h2>
+                    </header>
                     <ul>
-                        <li style="display:inline-block;">
-                            <a href="/images/windows-download-button.png" style="text-decoration:none;"><a>Download for Windows</a></a>
-                        </li>
-                        <li style="display:inline-block;">
-                            <a href="staff.html" style="text-decoration:none; color:#00FFFF;"><h1>Mac version coming soon!</h1></a>
-                        </li>
+                        <li>Set the heel and toe frequencies</li>
+                        <li>Control the attack and decay times of the wah sound</li>
+                        <li>Choose how sensitive the plugin is to audio input via the threshold</li>
+                        <li>Shape the filter with the Q control</li>
+                        <li>Set the balance of dry and wet signal with the mix control</li>
                     </ul>
-                    <div class="button-container">
-                        <a href="/images/windows-download-button.png" download>
-                            <img src="images/windows-download-button.png" alt="Download for windows" style="width:25%" />
-                        </a>
-                        <a href="/images/windows-download-button.png" download>
-                            <img src="images/mac-download-button.png" alt="Mac version coming soon" style="width:25%" />
-                        </a>
-                    </div>
+
+                    <header class="major">
+                        <h2>Downloads</h2>
+                    </header>
+
+                    <p> <a href="/images/windows-download-button.png" download>Download for Windows.</a></p>
+                    <p>Mac version coming soon.</p>
+                    <p>Please read our <a href="help.html" style="text-decoration:none;">installation instructions.</a></p>
                 </div>
             </section>
         </div>
@@ -122,13 +119,11 @@
         <footer id="footer">
             <div class="inner">
                 <ul class="icons">
-                    <!--<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>-->
-                    <!--<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>-->
                     <li><a href="https://www.instagram.com/mutenaudio/" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-                    <li><a href="#" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
+                    <li><a href="https://www.youtube.com/@MutenAudio" class="icon brands alt fa-youtube"><span class="label">YouTube</span></a></li>
                     <li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
                     <!--<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>-->
-                    <li><a href="#" class="icon solid alt fa-envelope"><span class="label">Email</span> &nbsp&nbsp <a href="#">james@mutenaudio.co.uk</a></a></li>
+                    <li><a href="mailto:james@mutenaudio.co.uk" class="icon solid alt fa-envelope"><span class="label">Email</span></a></li>
                 </ul>
                 <ul class="copyright">
                     <li>&copy; Untitled</li>
