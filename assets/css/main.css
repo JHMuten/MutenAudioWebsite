@@ -3140,9 +3140,13 @@ body {
 			font-size: 0.8em;
 			height: inherit;
 			line-height: inherit;
-			padding: 0 1.5em;
-			min-width: 130px; /* to stop the image from squashing */
-			min-height: 130px;
+			padding: 5px 5px 5px 5px; /* top right bottom left*/
+			/*margin: 5px;*/
+			/*min-width: 130px;*/ /* to stop the image from squashing */
+			aspect-ratio: 1;
+			object-fit: contain;
+			height: 100%;
+			width: auto;
 		}
 
 		#header nav {
@@ -3309,7 +3313,7 @@ body {
 			}
 
 				#header .logo {
-					padding: 0 1em;
+					padding: 5px 5px 5px 5px;
 				}
 
 				#header nav a {
